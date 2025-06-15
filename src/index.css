@@ -1,0 +1,46 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  @apply font-roboto;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: Oswald;
+  src: url("../src/assets/fonts/Oswald-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../src/assets/fonts/Roboto-VariableFont_wdth,wght.ttf");
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("../src/assets/fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-oswald: Oswald, "sans-serif";
+  --font-roboto: Roboto, "sans-serif";
+  --font-montserrat: Montserrat, "sans-serif";
+}
