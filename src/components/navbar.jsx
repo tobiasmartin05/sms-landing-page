@@ -8,7 +8,7 @@ export default function Navbar() {
             <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
                 {/* Logo */}
                 <div className="flex items-center gap-2">
-                    <img src="./logo-sps-1.png" alt="Logo" className="h-14 md:h-16 w-auto" />
+                    <img src="./logo-sps-1.svg" alt="Logo" className="h-14 md:h-16 w-auto" />
                     <span className="font-oswald font-bold tracking-wider text-sm md:text-base">
                         SUKSES PACKAGING SOLUTION
                     </span>
