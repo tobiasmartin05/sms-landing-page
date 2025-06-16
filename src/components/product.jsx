@@ -23,17 +23,17 @@ export default function Product() {
     const products = [
         {
             title: "Pallet Kayu",
-            image: "/pallet-kayu.png",
+            image: "./pallet-kayu.png",
             desc: "Pallet berbahan dasar kayu berkualitas tinggi yang cocok untuk pengiriman barang dalam jumlah besar. Tersedia dengan layanan fumigasi & semprot anti rayap.",
         },
         {
             title: "Pallet Plastik",
-            image: "/pallet-plastik.png",
+            image: "./pallet-plastik.png",
             desc: "Tahan air, ringan, dan sangat cocok untuk kebutuhan pengiriman modern dengan efisiensi tinggi dan dapat didaur ulang.",
         },
         {
             title: "Custom Pallet",
-            image: "/custom-pallet.png",
+            image: "./custom-pallet.png",
             desc: "Pallet dengan ukuran dan spesifikasi sesuai kebutuhan industri Anda. Bisa pilih bahan, dimensi, dan perlakuan khusus.",
         },
     ]

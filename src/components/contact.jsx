@@ -3,7 +3,7 @@ export default function Contact() {
         <section
             id="contact"
             className="bg-cover bg-center bg-no-repeat py-20 px-4 text-white"
-            style={{ backgroundImage: "url('/hero-contact-us.png')" }}
+            style={{ backgroundImage: "url('./hero-contact-us.png')" }}
         >
             {/* Judul Contact di atas, tengah */}
             <div className="text-center mb-12">
@@ -30,7 +30,7 @@ export default function Contact() {
                 <div className="space-y-6 h-full">
                     {/* Lokasi */}
                     <div className="flex items-start gap-3 border-b border-white/30 pb-3">
-                        <img src="/location.svg" alt="Location" className="w-6 h-6 mt-1" />
+                        <img src="./location.svg" alt="Location" className="w-6 h-6 mt-1" />
                         <div>
                             <h4 className="font-semibold">Lokasi</h4>
                             <p>Surabaya & Sidoarjo, Jawa Timur, Indonesia</p>
@@ -39,7 +39,7 @@ export default function Contact() {
 
                     {/* Email */}
                     <div className="flex items-start gap-3 border-b border-white/30 pb-3">
-                        <img src="/email.svg" alt="Email" className="w-6 h-6 mt-1" />
+                        <img src="./email.svg" alt="Email" className="w-6 h-6 mt-1" />
                         <div>
                             <h4 className="font-semibold">Email</h4>
                             <p>info@suksesmandirisolution.com</p>
@@ -48,7 +48,7 @@ export default function Contact() {
 
                     {/* Telepon */}
                     <div className="flex items-start gap-3 border-b border-white/30 pb-3">
-                        <img src="/phone.svg" alt="Phone" className="w-6 h-6 mt-1" />
+                        <img src="./phone.svg" alt="Phone" className="w-6 h-6 mt-1" />
                         <div>
                             <h4 className="font-semibold">Phone</h4>
                             <p>+62 812 3456 7890</p>

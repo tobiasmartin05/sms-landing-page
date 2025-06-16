@@ -4,7 +4,7 @@ export default function Hero() {
             <section
                 id="hero"
                 className="w-full bg-cover bg-center min-h-[760px] flex items-center"
-                style={{ backgroundImage: "url('/hero.png')" }}
+                style={{ backgroundImage: "url('./hero.png')" }}
             >
                 <div className="max-w-6xl mx-auto px-4 w-full">
                     <div className="flex flex-col text-white text-center md:text-left items-center md:items-start justify-center h-full">

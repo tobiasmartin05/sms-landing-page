@@ -16,7 +16,7 @@ export default function AboutUs() {
                     {/* VISI */}
                     <div className="bg-[#f8faff] rounded-xl shadow-md hover:shadow-lg hover:scale-105 transition duration-300 ease-in-out p-6 text-left">
                         <div className="flex items-center gap-2 mb-4">
-                            <img src="/eye-vision.svg" alt="Visi" className="w-10 h-10" />
+                            <img src="./eye-vision.svg" alt="Visi" className="w-10 h-10" />
                             <h3 className="text-[#002651] font-bold text-lg">Visi</h3>
                         </div>
                         <p className="text-gray-700 leading-relaxed">
@@ -27,26 +27,26 @@ export default function AboutUs() {
                     {/* MISI */}
                     <div className="bg-[#f8faff] rounded-xl shadow-md hover:shadow-lg hover:scale-105 transition duration-300 ease-in-out p-6 text-left">
                         <div className="flex items-center gap-2 mb-4">
-                            <img src="/archer.svg" alt="Misi" className="w-10 h-10" />
+                            <img src="./archer.svg" alt="Misi" className="w-10 h-10" />
                             <h3 className="text-[#002651] font-bold text-lg">Misi</h3>
                         </div>
                         <div className="space-y-4">
                             <div className="flex items-start gap-3">
-                                <img src="/checklist.svg" alt="Checklist" className="w-5 h-5 mt-1" />
+                                <img src="./checklist.svg" alt="Checklist" className="w-5 h-5 mt-1" />
                                 <p className="text-gray-700 leading-relaxed">
                                     Menyediakan produk pallet yang <strong>aman</strong>, <strong>kuat</strong>, dan <strong>ramah lingkungan</strong>.
                                 </p>
                             </div>
 
                             <div className="flex items-start gap-3">
-                                <img src="/checklist.svg" alt="Checklist" className="w-5 h-5 mt-1" />
+                                <img src="./checklist.svg" alt="Checklist" className="w-5 h-5 mt-1" />
                                 <p className="text-gray-700 leading-relaxed">
                                     Mengembangkan <strong>teknologi</strong> dan <strong>inovasi</strong> dalam pembuatan pallet.
                                 </p>
                             </div>
 
                             <div className="flex items-start gap-3">
-                                <img src="/checklist.svg" alt="Checklist" className="w-5 h-5 mt-1" />
+                                <img src="./checklist.svg" alt="Checklist" className="w-5 h-5 mt-1" />
                                 <p className="text-gray-700 leading-relaxed">
                                     Memberikan layanan pelanggan yang <strong>terpercaya</strong>, <strong>responsif</strong>, dan <strong>profesional</strong>.
                                 </p>
@@ -54,21 +54,21 @@ export default function AboutUs() {
                         </div>
                         <div className="space-y-4">
                             <div className="flex items-start gap-3">
-                                <img src="/checklist.svg" alt="Checklist" className="w-5 h-5 mt-1" />
+                                <img src="./checklist.svg" alt="Checklist" className="w-5 h-5 mt-1" />
                                 <p className="text-gray-700 leading-relaxed">
                                     Menyediakan produk pallet yang <strong>aman</strong>, <strong>kuat</strong>, dan <strong>ramah lingkungan</strong>.
                                 </p>
                             </div>
 
                             <div className="flex items-start gap-3">
-                                <img src="/checklist.svg" alt="Checklist" className="w-5 h-5 mt-1" />
+                                <img src="./checklist.svg" alt="Checklist" className="w-5 h-5 mt-1" />
                                 <p className="text-gray-700 leading-relaxed">
                                     Mengembangkan <strong>teknologi</strong> dan <strong>inovasi</strong> dalam pembuatan pallet.
                                 </p>
                             </div>
 
                             <div className="flex items-start gap-3">
-                                <img src="/checklist.svg" alt="Checklist" className="w-5 h-5 mt-1" />
+                                <img src="./checklist.svg" alt="Checklist" className="w-5 h-5 mt-1" />
                                 <p className="text-gray-700 leading-relaxed">
                                     Memberikan layanan pelanggan yang <strong>terpercaya</strong>, <strong>responsif</strong>, dan <strong>profesional</strong>.
                                 </p>
