@@ -35,7 +35,7 @@ export default function Hero() {
             {/* Footer tagline di bawah hero */}
             <div className="w-full bg-[#002651] text-white text-center py-8">
                 <h2 className="font-oswald text-lg md:text-xl font-bold tracking-widest">
-                    SUKSES <span className="text-orange-400">MANDIRI</span> SOLUTION
+                    SUKSES <span className="text-orange-400">PACKAGING</span> SOLUTION
                 </h2>
                 <p className="text-sm md:text-base mt-2">
                     Produsen dan Distributor Pallet Berkualitas Tinggi untuk Kebutuhan Industri

@@ -10,7 +10,7 @@ export default function Navbar() {
                 <div className="flex items-center gap-2">
                     <img src="./logo-sms.svg" alt="Logo" className="h-10 w-auto" />
                     <span className="font-oswald font-bold tracking-wider text-sm md:text-base">
-                        SUKSES MANDIRI SOLUTION
+                        SUKSES PACKAGING SOLUTION
                     </span>
                 </div>
 
