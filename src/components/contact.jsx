@@ -2,7 +2,7 @@ export default function Contact() {
     return (
         <section
             id="contact"
-            className="bg-cover bg-center bg-no-repeat py-20 px-4 text-white"
+            className="bg-cover bg-center bg-no-repeat py-20 px-4 text-white scroll-mt-32"
             style={{ backgroundImage: "url('./hero-contact-us.png')" }}
         >
             {/* Judul Contact di atas, tengah */}
@@ -51,7 +51,7 @@ export default function Contact() {
                         <img src="./phone.svg" alt="Phone" className="w-6 h-6 mt-1" />
                         <div>
                             <h4 className="font-semibold">Phone</h4>
-                            <p>+62 812 3456 7890</p>
+                            <p>+62 822 3456 7890</p>
                         </div>
                     </div>
                 </div>

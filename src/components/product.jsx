@@ -39,7 +39,7 @@ export default function Product() {
     ]
 
     return (
-        <section id="product" className="bg-gray-50 py-20">
+        <section id="product" className="bg-gray-50 py-20 scroll-mt-32">
             <div className="max-w-5xl mx-auto px-4 text-center mb-10">
                 <h2 className="text-2xl md:text-3xl font-bold mb-2">
                     <span className="text-[#002651]">Our </span>

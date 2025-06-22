@@ -3,11 +3,12 @@ export default function Hero() {
         <>
             <section
                 id="hero"
-                className="w-full bg-cover bg-center min-h-[760px] flex items-center"
+                className="w-full bg-cover bg-center min-h-screen flex flex-col justify-between"
                 style={{ backgroundImage: "url('./hero.png')" }}
             >
-                <div className="max-w-6xl mx-auto px-4 w-full">
-                    <div className="flex flex-col text-white text-center md:text-left items-center md:items-start justify-center h-full">
+                {/* Konten utama */}
+                <div className="max-w-6xl mx-auto px-4 w-full flex-1 flex items-center">
+                    <div className="flex flex-col text-white text-center md:text-left items-center md:items-start justify-center w-full">
                         <h1 className="font-montserrat text-3xl md:text-7xl font-bold leading-tight mb-4">
                             Solusi <span className="text-orange-400">Pallet</span> Berkualitas untuk Industri Anda
                         </h1>
@@ -30,17 +31,17 @@ export default function Hero() {
                         </div>
                     </div>
                 </div>
-            </section>
 
-            {/* Footer tagline di bawah hero */}
-            <div className="w-full bg-[#002651] text-white text-center py-8">
-                <h2 className="font-oswald text-lg md:text-xl font-bold tracking-widest">
-                    SUKSES <span className="text-orange-400">PACKAGING</span> SOLUTION
-                </h2>
-                <p className="text-sm md:text-base mt-2">
-                    Produsen dan Distributor Pallet Berkualitas Tinggi untuk Kebutuhan Industri
-                </p>
-            </div>
+                {/* Footer tagline di dalam hero */}
+                <div className="w-full bg-[#002651] text-white text-center py-8">
+                    <h2 className="font-oswald text-lg md:text-xl font-bold tracking-widest">
+                        SUKSES <span className="text-orange-400">PACKAGING</span> SOLUTION
+                    </h2>
+                    <p className="text-sm md:text-base mt-2">
+                        Produsen dan Distributor Pallet Berkualitas Tinggi untuk Kebutuhan Industri
+                    </p>
+                </div>
+            </section>
         </>
     );
 }

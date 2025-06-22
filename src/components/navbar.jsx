@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { FaWhatsapp } from 'react-icons/fa';
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -20,6 +21,16 @@ export default function Navbar() {
                     <a href="#product" className="text-white hover:text-orange-400 transition">Product</a>
                     <a href="#aboutus" className="text-white hover:text-orange-400 transition">About Us</a>
                     <a href="#contact" className="text-white hover:text-orange-400 transition">Contact</a>
+                    <a
+                        href="https://wa.me/6282244668991"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-green-500 hover:bg-green-600 text-white px-4 py-1.5 rounded-md transition flex items-center gap-2"
+                    >
+                        <FaWhatsapp className="text-lg" />
+                        Chat via Whatsapp
+                    </a>
+
                 </nav>
 
                 {/* Mobile Toggle */}
@@ -42,6 +53,15 @@ export default function Navbar() {
                     <a href="#aboutus" className="text-white hover:text-orange-400">About Us</a>
                     <a href="#testimonials" className="text-white hover:text-orange-400">Testimonials</a>
                     <a href="#contact" className="text-white hover:text-orange-400">Contact</a>
+                    <a
+                        href="https://wa.me/6282244668991"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-green-500 text-white text-center py-2 rounded-md hover:bg-green-600 transition flex items-center justify-center gap-2"
+                    >
+                        <FaWhatsapp className="text-lg" />
+                        Chat via Whatsapp
+                    </a>
                 </div>
             )}
         </header>
