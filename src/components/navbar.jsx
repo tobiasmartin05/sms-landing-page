@@ -6,10 +6,10 @@ export default function Navbar() {
 
     return (
         <header className="fixed top-0 left-0 w-full bg-[#002651] text-white z-50 shadow-md">
-            <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div className="max-w-6xl mx-auto px-4 py-auto flex justify-between items-center">
                 {/* Logo */}
                 <div className="flex items-center gap-2">
-                    <img src="./logo-sps-1.svg" alt="Logo" className="h-14 md:h-16 w-auto" />
+                    <img src="./Logo.png" alt="Logo" className="h-10 md:h-12 my-4 w-auto object-contain" />
                     <span className="font-oswald font-bold tracking-wider text-sm md:text-base">
                         SUKSES PACKAGING SOLUTION
                     </span>
